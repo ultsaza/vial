@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1664" viewBox="0 0 1240 1664" role="img" aria-labelledby="svg-title svg-description">
+<title id="svg-title">Cornix keymap</title>
+<desc id="svg-description">Up to five in-use layers rendered from cornix/main.vil, including both encoders.</desc>
+<style>
+svg { background: #f8fafc; }
+text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; }
+.page-title { font-size: 24px; font-weight: 700; }
+.page-subtitle { font-size: 12px; fill: #64748b; }
+.layer-card { fill: #ffffff; stroke: #d7e0ea; stroke-width: 1.5; }
+.layer-title { font-size: 17px; font-weight: 700; }
+.layer-note { font-size: 11px; fill: #64748b; }
+.key rect { fill: #fffaf3; stroke: #94a3b8; stroke-width: 1.4; }
+.key.modifier rect { fill: #eef2ff; stroke: #818cf8; }
+.key.layer-key rect { fill: #ffedd5; stroke: #f97316; stroke-width: 2; }
+.key.pointer rect { fill: #ecfdf5; stroke: #34d399; }
+.key.custom rect { fill: #fdf2f8; stroke: #f472b6; }
+.key.empty rect { fill: #f1f5f9; stroke: #cbd5e1; stroke-dasharray: 3 3; }
+.key-label { dominant-baseline: middle; text-anchor: middle; font-size: 11px; font-weight: 650; }
+.key-label--small { font-size: 8.5px; }
+.encoder rect { fill: #f8fafc; stroke: #cbd5e1; }
+.encoder circle { fill: #ffedd5; stroke: #f97316; stroke-width: 2; }
+.encoder-name { text-anchor: middle; font-size: 11px; font-weight: 700; }
+.encoder-action { text-anchor: middle; font-size: 9px; fill: #475569; }
+.encoder-press { text-anchor: middle; font-size: 8px; fill: #64748b; }
+</style>
+<text class="page-title" x="24" y="34">Cornix keymap</text>
+<text class="page-subtitle" x="24" y="55">Generated from cornix/main.vil · orange keys switch layers · hover a key for its raw code</text>
+<g id="layer-0">
+<rect class="layer-card" x="16" y="72" width="1208" height="298" rx="16"/>
+<text class="layer-title" x="34" y="100">Layer 0</text>
+<text class="layer-note" x="1204" y="99" text-anchor="end">48 keys + 2 encoders</text>
+<g class="key normal" data-slot="left-r0-c0">
+<title>KC_TAB</title>
+<rect x="34" y="132" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="153">Tab</text>
+</g>
+<g class="key normal" data-slot="left-r0-c1">
+<title>KC_Q</title>
+<rect x="92" y="126" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="147">Q</text>
+</g>
+<g class="key normal" data-slot="left-r0-c2">
+<title>KC_W</title>
+<rect x="150" y="120" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="141">W</text>
+</g>
+<g class="key normal" data-slot="left-r0-c3">
+<title>KC_E</title>
+<rect x="208" y="123" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="144">E</text>
+</g>
+<g class="key normal" data-slot="left-r0-c4">
+<title>KC_R</title>
+<rect x="266" y="128" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="149">R</text>
+</g>
+<g class="key normal" data-slot="left-r0-c5">
+<title>KC_T</title>
+<rect x="324" y="134" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="155">T</text>
+</g>
+<g class="key modifier" data-slot="left-r1-c0">
+<title>KC_LCTRL</title>
+<rect x="34" y="176" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="197">L Ctrl</text>
+</g>
+<g class="key normal" data-slot="left-r1-c1">
+<title>KC_A</title>
+<rect x="92" y="170" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="191">A</text>
+</g>
+<g class="key normal" data-slot="left-r1-c2">
+<title>KC_S</title>
+<rect x="150" y="164" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="185">S</text>
+</g>
+<g class="key normal" data-slot="left-r1-c3">
+<title>KC_D</title>
+<rect x="208" y="167" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="188">D</text>
+</g>
+<g class="key normal" data-slot="left-r1-c4">
+<title>KC_F</title>
+<rect x="266" y="172" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="193">F</text>
+</g>
+<g class="key normal" data-slot="left-r1-c5">
+<title>KC_G</title>
+<rect x="324" y="178" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="199">G</text>
+</g>
+<g class="key modifier" data-slot="left-r2-c0">
+<title>KC_LSHIFT</title>
+<rect x="34" y="220" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="241">L Shift</text>
+</g>
+<g class="key normal" data-slot="left-r2-c1">
+<title>KC_Z</title>
+<rect x="92" y="214" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="235">Z</text>
+</g>
+<g class="key normal" data-slot="left-r2-c2">
+<title>KC_X</title>
+<rect x="150" y="208" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="229">X</text>
+</g>
+<g class="key normal" data-slot="left-r2-c3">
+<title>KC_C</title>
+<rect x="208" y="211" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="232">C</text>
+</g>
+<g class="key normal" data-slot="left-r2-c4">
+<title>KC_V</title>
+<rect x="266" y="216" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="237">V</text>
+</g>
+<g class="key normal" data-slot="left-r2-c5">
+<title>KC_B</title>
+<rect x="324" y="222" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="243">B</text>
+</g>
+<g class="key modifier" data-slot="left-r3-c0">
+<title>KC_LCTRL</title>
+<rect x="34" y="264" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="285">L Ctrl</text>
+</g>
+<g class="key modifier" data-slot="left-r3-c1">
+<title>KC_LGUI</title>
+<rect x="92" y="258" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="279">L GUI</text>
+</g>
+<g class="key modifier" data-slot="left-r3-c2">
+<title>KC_LALT</title>
+<rect x="150" y="252" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="273">L Alt</text>
+</g>
+<g class="key layer-key" data-slot="left-thumb-0" transform="rotate(8 222 328)">
+<title>MO(1)</title>
+<rect x="196" y="308" width="52" height="40" rx="8"/>
+<text class="key-label" x="222" y="329">MO 1</text>
+</g>
+<g class="key layer-key" data-slot="left-thumb-1" transform="rotate(10 280 333)">
+<title>MO(3)</title>
+<rect x="254" y="313" width="52" height="40" rx="8"/>
+<text class="key-label" x="280" y="334">MO 3</text>
+</g>
+<g class="key normal" data-slot="left-thumb-2" transform="rotate(12 338 338)">
+<title>KC_SPACE</title>
+<rect x="312" y="318" width="52" height="40" rx="8"/>
+<text class="key-label" x="338" y="339">Space</text>
+</g>
+<g class="key normal" data-slot="right-r0-c0">
+<title>KC_Y</title>
+<rect x="854" y="134" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="155">Y</text>
+</g>
+<g class="key normal" data-slot="right-r0-c1">
+<title>KC_U</title>
+<rect x="912" y="128" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="149">U</text>
+</g>
+<g class="key normal" data-slot="right-r0-c2">
+<title>KC_I</title>
+<rect x="970" y="123" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="144">I</text>
+</g>
+<g class="key normal" data-slot="right-r0-c3">
+<title>KC_O</title>
+<rect x="1028" y="120" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="141">O</text>
+</g>
+<g class="key normal" data-slot="right-r0-c4">
+<title>KC_P</title>
+<rect x="1086" y="126" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="147">P</text>
+</g>
+<g class="key normal" data-slot="right-r0-c5">
+<title>KC_BSPACE</title>
+<rect x="1144" y="132" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="153">Bksp</text>
+</g>
+<g class="key normal" data-slot="right-r1-c0">
+<title>KC_H</title>
+<rect x="854" y="178" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="199">H</text>
+</g>
+<g class="key normal" data-slot="right-r1-c1">
+<title>KC_J</title>
+<rect x="912" y="172" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="193">J</text>
+</g>
+<g class="key normal" data-slot="right-r1-c2">
+<title>KC_K</title>
+<rect x="970" y="167" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="188">K</text>
+</g>
+<g class="key normal" data-slot="right-r1-c3">
+<title>KC_L</title>
+<rect x="1028" y="164" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="185">L</text>
+</g>
+<g class="key normal" data-slot="right-r1-c4">
+<title>KC_BSLASH</title>
+<rect x="1086" y="170" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="191">\</text>
+</g>
+<g class="key normal" data-slot="right-r1-c5">
+<title>KC_ENTER</title>
+<rect x="1144" y="176" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="197">Enter</text>
+</g>
+<g class="key normal" data-slot="right-r2-c0">
+<title>KC_N</title>
+<rect x="854" y="222" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="243">N</text>
+</g>
+<g class="key normal" data-slot="right-r2-c1">
+<title>KC_M</title>
+<rect x="912" y="216" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="237">M</text>
+</g>
+<g class="key normal" data-slot="right-r2-c2">
+<title>KC_COMMA</title>
+<rect x="970" y="211" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="232">,</text>
+</g>
+<g class="key normal" data-slot="right-r2-c3">
+<title>KC_DOT</title>
+<rect x="1028" y="208" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="229">.</text>
+</g>
+<g class="key normal" data-slot="right-r2-c4">
+<title>KC_UP</title>
+<rect x="1086" y="214" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="235">↑</text>
+</g>
+<g class="key normal" data-slot="right-r2-c5">
+<title>KC_SLASH</title>
+<rect x="1144" y="220" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="241">/</text>
+</g>
+<g class="key modifier" data-slot="right-thumb-0" transform="rotate(-12 892 338)">
+<title>KC_RSHIFT</title>
+<rect x="866" y="318" width="52" height="40" rx="8"/>
+<text class="key-label" x="892" y="339">R Shift</text>
+</g>
+<g class="key layer-key" data-slot="right-thumb-1" transform="rotate(-10 950 333)">
+<title>MO(4)</title>
+<rect x="924" y="313" width="52" height="40" rx="8"/>
+<text class="key-label" x="950" y="334">MO 4</text>
+</g>
+<g class="key layer-key" data-slot="right-thumb-2" transform="rotate(-8 1008 328)">
+<title>MO(2)</title>
+<rect x="982" y="308" width="52" height="40" rx="8"/>
+<text class="key-label" x="1008" y="329">MO 2</text>
+</g>
+<g class="key normal" data-slot="right-r3-c3">
+<title>KC_LEFT</title>
+<rect x="1028" y="252" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="273">←</text>
+</g>
+<g class="key normal" data-slot="right-r3-c4">
+<title>KC_DOWN</title>
+<rect x="1086" y="258" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="279">↓</text>
+</g>
+<g class="key normal" data-slot="right-r3-c5">
+<title>KC_RIGHT</title>
+<rect x="1144" y="264" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="285">→</text>
+</g>
+<g class="encoder" transform="translate(448 164)">
+<title>Left encoder: KC_WH_L, KC_WH_R, KC_MUTE</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Left encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Wheel ←</text>
+<text class="encoder-action" x="77" y="98">Wheel → ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mute</text>
+</g>
+<g class="encoder" transform="translate(638 164)">
+<title>Right encoder: KC_WH_U, KC_WH_D, KC_BTN3</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Right encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Wheel ↑</text>
+<text class="encoder-action" x="77" y="98">Wheel ↓ ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mouse 3</text>
+</g>
+</g>
+<g id="layer-1">
+<rect class="layer-card" x="16" y="386" width="1208" height="298" rx="16"/>
+<text class="layer-title" x="34" y="414">Layer 1</text>
+<text class="layer-note" x="1204" y="413" text-anchor="end">48 keys + 2 encoders</text>
+<g class="key normal" data-slot="left-r0-c0">
+<title>KC_GESC</title>
+<rect x="34" y="446" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="467">` / Esc</text>
+</g>
+<g class="key normal" data-slot="left-r0-c1">
+<title>KC_1</title>
+<rect x="92" y="440" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="461">1</text>
+</g>
+<g class="key normal" data-slot="left-r0-c2">
+<title>KC_2</title>
+<rect x="150" y="434" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="455">2</text>
+</g>
+<g class="key normal" data-slot="left-r0-c3">
+<title>KC_3</title>
+<rect x="208" y="437" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="458">3</text>
+</g>
+<g class="key normal" data-slot="left-r0-c4">
+<title>KC_4</title>
+<rect x="266" y="442" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="463">4</text>
+</g>
+<g class="key normal" data-slot="left-r0-c5">
+<title>KC_5</title>
+<rect x="324" y="448" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="469">5</text>
+</g>
+<g class="key empty" data-slot="left-r1-c0">
+<title>KC_NO</title>
+<rect x="34" y="490" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="511">—</text>
+</g>
+<g class="key empty" data-slot="left-r1-c1">
+<title>KC_NO</title>
+<rect x="92" y="484" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="505">—</text>
+</g>
+<g class="key empty" data-slot="left-r1-c2">
+<title>KC_NO</title>
+<rect x="150" y="478" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="499">—</text>
+</g>
+<g class="key empty" data-slot="left-r1-c3">
+<title>KC_NO</title>
+<rect x="208" y="481" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="502">—</text>
+</g>
+<g class="key normal" data-slot="left-r1-c4">
+<title>KC_SCOLON</title>
+<rect x="266" y="486" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="507">;</text>
+</g>
+<g class="key normal" data-slot="left-r1-c5">
+<title>KC_MINUS</title>
+<rect x="324" y="492" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="513">-</text>
+</g>
+<g class="key empty" data-slot="left-r2-c0">
+<title>KC_NO</title>
+<rect x="34" y="534" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="555">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c1">
+<title>KC_NO</title>
+<rect x="92" y="528" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="549">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c2">
+<title>KC_NO</title>
+<rect x="150" y="522" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="543">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c3">
+<title>KC_NO</title>
+<rect x="208" y="525" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="546">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c4">
+<title>KC_NO</title>
+<rect x="266" y="530" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="551">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c5">
+<title>KC_NO</title>
+<rect x="324" y="536" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="557">—</text>
+</g>
+<g class="key empty" data-slot="left-r3-c0">
+<title>KC_NO</title>
+<rect x="34" y="578" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="599">—</text>
+</g>
+<g class="key empty" data-slot="left-r3-c1">
+<title>KC_NO</title>
+<rect x="92" y="572" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="593">—</text>
+</g>
+<g class="key empty" data-slot="left-r3-c2">
+<title>KC_NO</title>
+<rect x="150" y="566" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="587">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-0" transform="rotate(8 222 642)">
+<title>KC_NO</title>
+<rect x="196" y="622" width="52" height="40" rx="8"/>
+<text class="key-label" x="222" y="643">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-1" transform="rotate(10 280 647)">
+<title>KC_NO</title>
+<rect x="254" y="627" width="52" height="40" rx="8"/>
+<text class="key-label" x="280" y="648">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-2" transform="rotate(12 338 652)">
+<title>KC_NO</title>
+<rect x="312" y="632" width="52" height="40" rx="8"/>
+<text class="key-label" x="338" y="653">—</text>
+</g>
+<g class="key normal" data-slot="right-r0-c0">
+<title>KC_6</title>
+<rect x="854" y="448" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="469">6</text>
+</g>
+<g class="key normal" data-slot="right-r0-c1">
+<title>KC_7</title>
+<rect x="912" y="442" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="463">7</text>
+</g>
+<g class="key normal" data-slot="right-r0-c2">
+<title>KC_8</title>
+<rect x="970" y="437" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="458">8</text>
+</g>
+<g class="key normal" data-slot="right-r0-c3">
+<title>KC_9</title>
+<rect x="1028" y="434" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="455">9</text>
+</g>
+<g class="key normal" data-slot="right-r0-c4">
+<title>KC_0</title>
+<rect x="1086" y="440" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="461">0</text>
+</g>
+<g class="key normal" data-slot="right-r0-c5">
+<title>KC_DELETE</title>
+<rect x="1144" y="446" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="467">Del</text>
+</g>
+<g class="key normal" data-slot="right-r1-c0">
+<title>KC_EQUAL</title>
+<rect x="854" y="492" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="513">=</text>
+</g>
+<g class="key normal" data-slot="right-r1-c1">
+<title>KC_QUOTE</title>
+<rect x="912" y="486" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="507">&#x27;</text>
+</g>
+<g class="key normal" data-slot="right-r1-c2">
+<title>KC_GRAVE</title>
+<rect x="970" y="481" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="502">`</text>
+</g>
+<g class="key normal" data-slot="right-r1-c3">
+<title>KC_LBRACKET</title>
+<rect x="1028" y="478" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="499">[</text>
+</g>
+<g class="key normal" data-slot="right-r1-c4">
+<title>KC_RBRACKET</title>
+<rect x="1086" y="484" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="505">]</text>
+</g>
+<g class="key normal" data-slot="right-r1-c5">
+<title>KC_JYEN</title>
+<rect x="1144" y="490" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="511">¥</text>
+</g>
+<g class="key empty" data-slot="right-r2-c0">
+<title>KC_NO</title>
+<rect x="854" y="536" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="557">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c1">
+<title>KC_NO</title>
+<rect x="912" y="530" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="551">—</text>
+</g>
+<g class="key normal" data-slot="right-r2-c2">
+<title>KC_COMMA</title>
+<rect x="970" y="525" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="546">,</text>
+</g>
+<g class="key normal" data-slot="right-r2-c3">
+<title>KC_DOT</title>
+<rect x="1028" y="522" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="543">.</text>
+</g>
+<g class="key empty" data-slot="right-r2-c4">
+<title>KC_NO</title>
+<rect x="1086" y="528" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="549">—</text>
+</g>
+<g class="key normal" data-slot="right-r2-c5">
+<title>KC_SLASH</title>
+<rect x="1144" y="534" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="555">/</text>
+</g>
+<g class="key empty" data-slot="right-thumb-0" transform="rotate(-12 892 652)">
+<title>KC_NO</title>
+<rect x="866" y="632" width="52" height="40" rx="8"/>
+<text class="key-label" x="892" y="653">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-1" transform="rotate(-10 950 647)">
+<title>KC_NO</title>
+<rect x="924" y="627" width="52" height="40" rx="8"/>
+<text class="key-label" x="950" y="648">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-2" transform="rotate(-8 1008 642)">
+<title>KC_NO</title>
+<rect x="982" y="622" width="52" height="40" rx="8"/>
+<text class="key-label" x="1008" y="643">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c3">
+<title>KC_NO</title>
+<rect x="1028" y="566" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="587">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c4">
+<title>KC_NO</title>
+<rect x="1086" y="572" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="593">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c5">
+<title>KC_NO</title>
+<rect x="1144" y="578" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="599">—</text>
+</g>
+<g class="encoder" transform="translate(448 478)">
+<title>Left encoder: KC_VOLD, KC_VOLU, KC_MUTE</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Left encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Vol −</text>
+<text class="encoder-action" x="77" y="98">Vol + ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mute</text>
+</g>
+<g class="encoder" transform="translate(638 478)">
+<title>Right encoder: KC_VOLD, KC_VOLU, KC_BTN3</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Right encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Vol −</text>
+<text class="encoder-action" x="77" y="98">Vol + ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mouse 3</text>
+</g>
+</g>
+<g id="layer-2">
+<rect class="layer-card" x="16" y="700" width="1208" height="298" rx="16"/>
+<text class="layer-title" x="34" y="728">Layer 2</text>
+<text class="layer-note" x="1204" y="727" text-anchor="end">48 keys + 2 encoders</text>
+<g class="key normal" data-slot="left-r0-c0">
+<title>KC_ESCAPE</title>
+<rect x="34" y="760" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="781">Esc</text>
+</g>
+<g class="key modifier" data-slot="left-r0-c1">
+<title>LSFT(KC_1)</title>
+<rect x="92" y="754" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="775">⇧ 1</text>
+</g>
+<g class="key modifier" data-slot="left-r0-c2">
+<title>LSFT(KC_2)</title>
+<rect x="150" y="748" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="769">⇧ 2</text>
+</g>
+<g class="key modifier" data-slot="left-r0-c3">
+<title>LSFT(KC_3)</title>
+<rect x="208" y="751" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="772">⇧ 3</text>
+</g>
+<g class="key modifier" data-slot="left-r0-c4">
+<title>LSFT(KC_4)</title>
+<rect x="266" y="756" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="777">⇧ 4</text>
+</g>
+<g class="key modifier" data-slot="left-r0-c5">
+<title>LSFT(KC_5)</title>
+<rect x="324" y="762" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="783">⇧ 5</text>
+</g>
+<g class="key custom" data-slot="left-r1-c0">
+<title>USER00</title>
+<rect x="34" y="804" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="825">User 0</text>
+</g>
+<g class="key normal" data-slot="left-r1-c1">
+<title>KC_F1</title>
+<rect x="92" y="798" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="819">F1</text>
+</g>
+<g class="key normal" data-slot="left-r1-c2">
+<title>KC_F2</title>
+<rect x="150" y="792" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="813">F2</text>
+</g>
+<g class="key normal" data-slot="left-r1-c3">
+<title>KC_F3</title>
+<rect x="208" y="795" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="816">F3</text>
+</g>
+<g class="key modifier" data-slot="left-r1-c4">
+<title>LSFT(KC_SCOLON)</title>
+<rect x="266" y="800" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="821">⇧ ;</text>
+</g>
+<g class="key modifier" data-slot="left-r1-c5">
+<title>LSFT(KC_MINUS)</title>
+<rect x="324" y="806" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="827">⇧ -</text>
+</g>
+<g class="key custom" data-slot="left-r2-c0">
+<title>USER01</title>
+<rect x="34" y="848" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="869">User 1</text>
+</g>
+<g class="key normal" data-slot="left-r2-c1">
+<title>KC_F7</title>
+<rect x="92" y="842" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="863">F7</text>
+</g>
+<g class="key normal" data-slot="left-r2-c2">
+<title>KC_F8</title>
+<rect x="150" y="836" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="857">F8</text>
+</g>
+<g class="key normal" data-slot="left-r2-c3">
+<title>KC_F9</title>
+<rect x="208" y="839" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="860">F9</text>
+</g>
+<g class="key normal" data-slot="left-r2-c4">
+<title>KC_F10</title>
+<rect x="266" y="844" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="865">F10</text>
+</g>
+<g class="key normal" data-slot="left-r2-c5">
+<title>KC_F11</title>
+<rect x="324" y="850" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="871">F11</text>
+</g>
+<g class="key custom" data-slot="left-r3-c0">
+<title>USER02</title>
+<rect x="34" y="892" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="913">User 2</text>
+</g>
+<g class="key empty" data-slot="left-r3-c1">
+<title>KC_NO</title>
+<rect x="92" y="886" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="907">—</text>
+</g>
+<g class="key empty" data-slot="left-r3-c2">
+<title>KC_NO</title>
+<rect x="150" y="880" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="901">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-0" transform="rotate(8 222 956)">
+<title>KC_NO</title>
+<rect x="196" y="936" width="52" height="40" rx="8"/>
+<text class="key-label" x="222" y="957">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-1" transform="rotate(10 280 961)">
+<title>KC_NO</title>
+<rect x="254" y="941" width="52" height="40" rx="8"/>
+<text class="key-label" x="280" y="962">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-2" transform="rotate(12 338 966)">
+<title>KC_NO</title>
+<rect x="312" y="946" width="52" height="40" rx="8"/>
+<text class="key-label" x="338" y="967">—</text>
+</g>
+<g class="key modifier" data-slot="right-r0-c0">
+<title>LSFT(KC_6)</title>
+<rect x="854" y="762" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="783">⇧ 6</text>
+</g>
+<g class="key modifier" data-slot="right-r0-c1">
+<title>LSFT(KC_7)</title>
+<rect x="912" y="756" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="777">⇧ 7</text>
+</g>
+<g class="key modifier" data-slot="right-r0-c2">
+<title>LSFT(KC_8)</title>
+<rect x="970" y="751" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="772">⇧ 8</text>
+</g>
+<g class="key modifier" data-slot="right-r0-c3">
+<title>LSFT(KC_9)</title>
+<rect x="1028" y="748" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="769">⇧ 9</text>
+</g>
+<g class="key modifier" data-slot="right-r0-c4">
+<title>LSFT(KC_0)</title>
+<rect x="1086" y="754" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="775">⇧ 0</text>
+</g>
+<g class="key normal" data-slot="right-r0-c5">
+<title>KC_BSPACE</title>
+<rect x="1144" y="760" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="781">Bksp</text>
+</g>
+<g class="key modifier" data-slot="right-r1-c0">
+<title>LSFT(KC_EQUAL)</title>
+<rect x="854" y="806" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="827">⇧ =</text>
+</g>
+<g class="key modifier" data-slot="right-r1-c1">
+<title>LSFT(KC_QUOTE)</title>
+<rect x="912" y="800" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="821">⇧ &#x27;</text>
+</g>
+<g class="key modifier" data-slot="right-r1-c2">
+<title>LSFT(KC_GRAVE)</title>
+<rect x="970" y="795" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="816">⇧ `</text>
+</g>
+<g class="key modifier" data-slot="right-r1-c3">
+<title>LSFT(KC_LBRACKET)</title>
+<rect x="1028" y="792" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="813">⇧ [</text>
+</g>
+<g class="key modifier" data-slot="right-r1-c4">
+<title>LSFT(KC_RBRACKET)</title>
+<rect x="1086" y="798" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="819">⇧ ]</text>
+</g>
+<g class="key modifier" data-slot="right-r1-c5">
+<title>LSFT(KC_BSLASH)</title>
+<rect x="1144" y="804" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="825">⇧ \</text>
+</g>
+<g class="key normal" data-slot="right-r2-c0">
+<title>KC_F12</title>
+<rect x="854" y="850" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="871">F12</text>
+</g>
+<g class="key empty" data-slot="right-r2-c1">
+<title>KC_NO</title>
+<rect x="912" y="844" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="865">—</text>
+</g>
+<g class="key modifier" data-slot="right-r2-c2">
+<title>LSFT(KC_COMMA)</title>
+<rect x="970" y="839" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="860">⇧ ,</text>
+</g>
+<g class="key modifier" data-slot="right-r2-c3">
+<title>LSFT(KC_DOT)</title>
+<rect x="1028" y="836" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="857">⇧ .</text>
+</g>
+<g class="key empty" data-slot="right-r2-c4">
+<title>KC_NO</title>
+<rect x="1086" y="842" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="863">—</text>
+</g>
+<g class="key modifier" data-slot="right-r2-c5">
+<title>LSFT(KC_SLASH)</title>
+<rect x="1144" y="848" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="869">⇧ /</text>
+</g>
+<g class="key empty" data-slot="right-thumb-0" transform="rotate(-12 892 966)">
+<title>KC_NO</title>
+<rect x="866" y="946" width="52" height="40" rx="8"/>
+<text class="key-label" x="892" y="967">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-1" transform="rotate(-10 950 961)">
+<title>KC_NO</title>
+<rect x="924" y="941" width="52" height="40" rx="8"/>
+<text class="key-label" x="950" y="962">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-2" transform="rotate(-8 1008 956)">
+<title>KC_NO</title>
+<rect x="982" y="936" width="52" height="40" rx="8"/>
+<text class="key-label" x="1008" y="957">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c3">
+<title>KC_NO</title>
+<rect x="1028" y="880" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="901">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c4">
+<title>KC_NO</title>
+<rect x="1086" y="886" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="907">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c5">
+<title>KC_NO</title>
+<rect x="1144" y="892" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="913">—</text>
+</g>
+<g class="encoder" transform="translate(448 792)">
+<title>Left encoder: KC_VOLD, KC_VOLU, KC_MUTE</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Left encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Vol −</text>
+<text class="encoder-action" x="77" y="98">Vol + ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mute</text>
+</g>
+<g class="encoder" transform="translate(638 792)">
+<title>Right encoder: KC_WH_U, KC_WH_D, KC_BTN3</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Right encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Wheel ↑</text>
+<text class="encoder-action" x="77" y="98">Wheel ↓ ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mouse 3</text>
+</g>
+</g>
+<g id="layer-3">
+<rect class="layer-card" x="16" y="1014" width="1208" height="298" rx="16"/>
+<text class="layer-title" x="34" y="1042">Layer 3</text>
+<text class="layer-note" x="1204" y="1041" text-anchor="end">48 keys + 2 encoders</text>
+<g class="key empty" data-slot="left-r0-c0">
+<title>KC_NO</title>
+<rect x="34" y="1074" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="1095">—</text>
+</g>
+<g class="key normal" data-slot="left-r0-c1">
+<title>KC_F1</title>
+<rect x="92" y="1068" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="1089">F1</text>
+</g>
+<g class="key normal" data-slot="left-r0-c2">
+<title>KC_F2</title>
+<rect x="150" y="1062" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="1083">F2</text>
+</g>
+<g class="key normal" data-slot="left-r0-c3">
+<title>KC_F3</title>
+<rect x="208" y="1065" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="1086">F3</text>
+</g>
+<g class="key normal" data-slot="left-r0-c4">
+<title>KC_F4</title>
+<rect x="266" y="1070" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="1091">F4</text>
+</g>
+<g class="key normal" data-slot="left-r0-c5">
+<title>KC_F5</title>
+<rect x="324" y="1076" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="1097">F5</text>
+</g>
+<g class="key custom" data-slot="left-r1-c0">
+<title>USER00</title>
+<rect x="34" y="1118" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="1139">User 0</text>
+</g>
+<g class="key normal" data-slot="left-r1-c1">
+<title>KC_F11</title>
+<rect x="92" y="1112" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="1133">F11</text>
+</g>
+<g class="key normal" data-slot="left-r1-c2">
+<title>KC_F12</title>
+<rect x="150" y="1106" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="1127">F12</text>
+</g>
+<g class="key empty" data-slot="left-r1-c3">
+<title>KC_NO</title>
+<rect x="208" y="1109" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="1130">—</text>
+</g>
+<g class="key empty" data-slot="left-r1-c4">
+<title>KC_NO</title>
+<rect x="266" y="1114" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="1135">—</text>
+</g>
+<g class="key empty" data-slot="left-r1-c5">
+<title>KC_NO</title>
+<rect x="324" y="1120" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="1141">—</text>
+</g>
+<g class="key custom" data-slot="left-r2-c0">
+<title>USER01</title>
+<rect x="34" y="1162" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="1183">User 1</text>
+</g>
+<g class="key empty" data-slot="left-r2-c1">
+<title>KC_NO</title>
+<rect x="92" y="1156" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="1177">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c2">
+<title>KC_NO</title>
+<rect x="150" y="1150" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="1171">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c3">
+<title>KC_NO</title>
+<rect x="208" y="1153" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="1174">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c4">
+<title>KC_NO</title>
+<rect x="266" y="1158" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="1179">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c5">
+<title>KC_NO</title>
+<rect x="324" y="1164" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="1185">—</text>
+</g>
+<g class="key custom" data-slot="left-r3-c0">
+<title>USER02</title>
+<rect x="34" y="1206" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="1227">User 2</text>
+</g>
+<g class="key empty" data-slot="left-r3-c1">
+<title>KC_NO</title>
+<rect x="92" y="1200" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="1221">—</text>
+</g>
+<g class="key empty" data-slot="left-r3-c2">
+<title>KC_NO</title>
+<rect x="150" y="1194" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="1215">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-0" transform="rotate(8 222 1270)">
+<title>KC_NO</title>
+<rect x="196" y="1250" width="52" height="40" rx="8"/>
+<text class="key-label" x="222" y="1271">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-1" transform="rotate(10 280 1275)">
+<title>KC_NO</title>
+<rect x="254" y="1255" width="52" height="40" rx="8"/>
+<text class="key-label" x="280" y="1276">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-2" transform="rotate(12 338 1280)">
+<title>KC_NO</title>
+<rect x="312" y="1260" width="52" height="40" rx="8"/>
+<text class="key-label" x="338" y="1281">—</text>
+</g>
+<g class="key normal" data-slot="right-r0-c0">
+<title>KC_F6</title>
+<rect x="854" y="1076" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="1097">F6</text>
+</g>
+<g class="key normal" data-slot="right-r0-c1">
+<title>KC_F7</title>
+<rect x="912" y="1070" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="1091">F7</text>
+</g>
+<g class="key normal" data-slot="right-r0-c2">
+<title>KC_F8</title>
+<rect x="970" y="1065" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="1086">F8</text>
+</g>
+<g class="key normal" data-slot="right-r0-c3">
+<title>KC_F9</title>
+<rect x="1028" y="1062" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="1083">F9</text>
+</g>
+<g class="key normal" data-slot="right-r0-c4">
+<title>KC_F10</title>
+<rect x="1086" y="1068" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="1089">F10</text>
+</g>
+<g class="key empty" data-slot="right-r0-c5">
+<title>KC_NO</title>
+<rect x="1144" y="1074" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="1095">—</text>
+</g>
+<g class="key normal" data-slot="right-r1-c0">
+<title>KC_LEFT</title>
+<rect x="854" y="1120" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="1141">←</text>
+</g>
+<g class="key normal" data-slot="right-r1-c1">
+<title>KC_DOWN</title>
+<rect x="912" y="1114" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="1135">↓</text>
+</g>
+<g class="key normal" data-slot="right-r1-c2">
+<title>KC_UP</title>
+<rect x="970" y="1109" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="1130">↑</text>
+</g>
+<g class="key normal" data-slot="right-r1-c3">
+<title>KC_RIGHT</title>
+<rect x="1028" y="1106" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="1127">→</text>
+</g>
+<g class="key empty" data-slot="right-r1-c4">
+<title>KC_NO</title>
+<rect x="1086" y="1112" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="1133">—</text>
+</g>
+<g class="key normal" data-slot="right-r1-c5">
+<title>KC_ENTER</title>
+<rect x="1144" y="1118" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="1139">Enter</text>
+</g>
+<g class="key empty" data-slot="right-r2-c0">
+<title>KC_NO</title>
+<rect x="854" y="1164" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="1185">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c1">
+<title>KC_NO</title>
+<rect x="912" y="1158" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="1179">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c2">
+<title>KC_NO</title>
+<rect x="970" y="1153" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="1174">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c3">
+<title>KC_NO</title>
+<rect x="1028" y="1150" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="1171">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c4">
+<title>KC_NO</title>
+<rect x="1086" y="1156" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="1177">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c5">
+<title>KC_NO</title>
+<rect x="1144" y="1162" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="1183">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-0" transform="rotate(-12 892 1280)">
+<title>KC_NO</title>
+<rect x="866" y="1260" width="52" height="40" rx="8"/>
+<text class="key-label" x="892" y="1281">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-1" transform="rotate(-10 950 1275)">
+<title>KC_NO</title>
+<rect x="924" y="1255" width="52" height="40" rx="8"/>
+<text class="key-label" x="950" y="1276">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-2" transform="rotate(-8 1008 1270)">
+<title>KC_NO</title>
+<rect x="982" y="1250" width="52" height="40" rx="8"/>
+<text class="key-label" x="1008" y="1271">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c3">
+<title>KC_NO</title>
+<rect x="1028" y="1194" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="1215">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c4">
+<title>KC_NO</title>
+<rect x="1086" y="1200" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="1221">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c5">
+<title>KC_NO</title>
+<rect x="1144" y="1206" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="1227">—</text>
+</g>
+<g class="encoder" transform="translate(448 1106)">
+<title>Left encoder: KC_VOLD, KC_VOLU, KC_MUTE</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Left encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Vol −</text>
+<text class="encoder-action" x="77" y="98">Vol + ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mute</text>
+</g>
+<g class="encoder" transform="translate(638 1106)">
+<title>Right encoder: KC_WH_U, KC_WH_D, KC_BTN3</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Right encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Wheel ↑</text>
+<text class="encoder-action" x="77" y="98">Wheel ↓ ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mouse 3</text>
+</g>
+</g>
+<g id="layer-4">
+<rect class="layer-card" x="16" y="1328" width="1208" height="298" rx="16"/>
+<text class="layer-title" x="34" y="1356">Layer 4</text>
+<text class="layer-note" x="1204" y="1355" text-anchor="end">48 keys + 2 encoders</text>
+<g class="key empty" data-slot="left-r0-c0">
+<title>KC_NO</title>
+<rect x="34" y="1388" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="1409">—</text>
+</g>
+<g class="key empty" data-slot="left-r0-c1">
+<title>KC_NO</title>
+<rect x="92" y="1382" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="1403">—</text>
+</g>
+<g class="key empty" data-slot="left-r0-c2">
+<title>KC_NO</title>
+<rect x="150" y="1376" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="1397">—</text>
+</g>
+<g class="key empty" data-slot="left-r0-c3">
+<title>KC_NO</title>
+<rect x="208" y="1379" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="1400">—</text>
+</g>
+<g class="key empty" data-slot="left-r0-c4">
+<title>KC_NO</title>
+<rect x="266" y="1384" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="1405">—</text>
+</g>
+<g class="key empty" data-slot="left-r0-c5">
+<title>KC_NO</title>
+<rect x="324" y="1390" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="1411">—</text>
+</g>
+<g class="key empty" data-slot="left-r1-c0">
+<title>KC_NO</title>
+<rect x="34" y="1432" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="1453">—</text>
+</g>
+<g class="key empty" data-slot="left-r1-c1">
+<title>KC_NO</title>
+<rect x="92" y="1426" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="1447">—</text>
+</g>
+<g class="key empty" data-slot="left-r1-c2">
+<title>KC_NO</title>
+<rect x="150" y="1420" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="1441">—</text>
+</g>
+<g class="key pointer" data-slot="left-r1-c3">
+<title>KC_WBAK</title>
+<rect x="208" y="1423" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="1444">Back</text>
+</g>
+<g class="key pointer" data-slot="left-r1-c4">
+<title>KC_WFWD</title>
+<rect x="266" y="1428" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="1449">Forward</text>
+</g>
+<g class="key pointer" data-slot="left-r1-c5">
+<title>KC_WREF</title>
+<rect x="324" y="1434" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="1455">Reload</text>
+</g>
+<g class="key empty" data-slot="left-r2-c0">
+<title>KC_NO</title>
+<rect x="34" y="1476" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="1497">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c1">
+<title>KC_NO</title>
+<rect x="92" y="1470" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="1491">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c2">
+<title>KC_NO</title>
+<rect x="150" y="1464" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="1485">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c3">
+<title>KC_NO</title>
+<rect x="208" y="1467" width="52" height="40" rx="8"/>
+<text class="key-label" x="234" y="1488">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c4">
+<title>KC_NO</title>
+<rect x="266" y="1472" width="52" height="40" rx="8"/>
+<text class="key-label" x="292" y="1493">—</text>
+</g>
+<g class="key empty" data-slot="left-r2-c5">
+<title>KC_NO</title>
+<rect x="324" y="1478" width="52" height="40" rx="8"/>
+<text class="key-label" x="350" y="1499">—</text>
+</g>
+<g class="key empty" data-slot="left-r3-c0">
+<title>KC_NO</title>
+<rect x="34" y="1520" width="52" height="40" rx="8"/>
+<text class="key-label" x="60" y="1541">—</text>
+</g>
+<g class="key empty" data-slot="left-r3-c1">
+<title>KC_NO</title>
+<rect x="92" y="1514" width="52" height="40" rx="8"/>
+<text class="key-label" x="118" y="1535">—</text>
+</g>
+<g class="key empty" data-slot="left-r3-c2">
+<title>KC_NO</title>
+<rect x="150" y="1508" width="52" height="40" rx="8"/>
+<text class="key-label" x="176" y="1529">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-0" transform="rotate(8 222 1584)">
+<title>KC_NO</title>
+<rect x="196" y="1564" width="52" height="40" rx="8"/>
+<text class="key-label" x="222" y="1585">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-1" transform="rotate(10 280 1589)">
+<title>KC_NO</title>
+<rect x="254" y="1569" width="52" height="40" rx="8"/>
+<text class="key-label" x="280" y="1590">—</text>
+</g>
+<g class="key empty" data-slot="left-thumb-2" transform="rotate(12 338 1594)">
+<title>KC_NO</title>
+<rect x="312" y="1574" width="52" height="40" rx="8"/>
+<text class="key-label" x="338" y="1595">—</text>
+</g>
+<g class="key empty" data-slot="right-r0-c0">
+<title>KC_NO</title>
+<rect x="854" y="1390" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="1411">—</text>
+</g>
+<g class="key pointer" data-slot="right-r0-c1">
+<title>KC_BTN1</title>
+<rect x="912" y="1384" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="1405">Mouse 1</text>
+</g>
+<g class="key pointer" data-slot="right-r0-c2">
+<title>KC_BTN2</title>
+<rect x="970" y="1379" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="1400">Mouse 2</text>
+</g>
+<g class="key empty" data-slot="right-r0-c3">
+<title>KC_NO</title>
+<rect x="1028" y="1376" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="1397">—</text>
+</g>
+<g class="key empty" data-slot="right-r0-c4">
+<title>KC_NO</title>
+<rect x="1086" y="1382" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="1403">—</text>
+</g>
+<g class="key empty" data-slot="right-r0-c5">
+<title>KC_NO</title>
+<rect x="1144" y="1388" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="1409">—</text>
+</g>
+<g class="key pointer" data-slot="right-r1-c0">
+<title>KC_MS_L</title>
+<rect x="854" y="1434" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="1455">Mouse ←</text>
+</g>
+<g class="key pointer" data-slot="right-r1-c1">
+<title>KC_MS_D</title>
+<rect x="912" y="1428" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="1449">Mouse ↓</text>
+</g>
+<g class="key pointer" data-slot="right-r1-c2">
+<title>KC_MS_U</title>
+<rect x="970" y="1423" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="1444">Mouse ↑</text>
+</g>
+<g class="key pointer" data-slot="right-r1-c3">
+<title>KC_MS_R</title>
+<rect x="1028" y="1420" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="1441">Mouse →</text>
+</g>
+<g class="key empty" data-slot="right-r1-c4">
+<title>KC_NO</title>
+<rect x="1086" y="1426" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="1447">—</text>
+</g>
+<g class="key empty" data-slot="right-r1-c5">
+<title>KC_NO</title>
+<rect x="1144" y="1432" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="1453">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c0">
+<title>KC_NO</title>
+<rect x="854" y="1478" width="52" height="40" rx="8"/>
+<text class="key-label" x="880" y="1499">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c1">
+<title>KC_NO</title>
+<rect x="912" y="1472" width="52" height="40" rx="8"/>
+<text class="key-label" x="938" y="1493">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c2">
+<title>KC_NO</title>
+<rect x="970" y="1467" width="52" height="40" rx="8"/>
+<text class="key-label" x="996" y="1488">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c3">
+<title>KC_NO</title>
+<rect x="1028" y="1464" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="1485">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c4">
+<title>KC_NO</title>
+<rect x="1086" y="1470" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="1491">—</text>
+</g>
+<g class="key empty" data-slot="right-r2-c5">
+<title>KC_NO</title>
+<rect x="1144" y="1476" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="1497">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-0" transform="rotate(-12 892 1594)">
+<title>KC_NO</title>
+<rect x="866" y="1574" width="52" height="40" rx="8"/>
+<text class="key-label" x="892" y="1595">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-1" transform="rotate(-10 950 1589)">
+<title>KC_NO</title>
+<rect x="924" y="1569" width="52" height="40" rx="8"/>
+<text class="key-label" x="950" y="1590">—</text>
+</g>
+<g class="key empty" data-slot="right-thumb-2" transform="rotate(-8 1008 1584)">
+<title>KC_NO</title>
+<rect x="982" y="1564" width="52" height="40" rx="8"/>
+<text class="key-label" x="1008" y="1585">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c3">
+<title>KC_NO</title>
+<rect x="1028" y="1508" width="52" height="40" rx="8"/>
+<text class="key-label" x="1054" y="1529">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c4">
+<title>KC_NO</title>
+<rect x="1086" y="1514" width="52" height="40" rx="8"/>
+<text class="key-label" x="1112" y="1535">—</text>
+</g>
+<g class="key empty" data-slot="right-r3-c5">
+<title>KC_NO</title>
+<rect x="1144" y="1520" width="52" height="40" rx="8"/>
+<text class="key-label" x="1170" y="1541">—</text>
+</g>
+<g class="encoder" transform="translate(448 1420)">
+<title>Left encoder: KC_WH_L, KC_WH_R, KC_MUTE</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Left encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Wheel ←</text>
+<text class="encoder-action" x="77" y="98">Wheel → ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mute</text>
+</g>
+<g class="encoder" transform="translate(638 1420)">
+<title>Right encoder: KC_WH_U, KC_WH_D, KC_BTN3</title>
+<rect width="154" height="116" rx="12"/>
+<circle cx="77" cy="31" r="15"/>
+<text class="encoder-name" x="77" y="62">Right encoder</text>
+<text class="encoder-action" x="77" y="82">↺ Wheel ↑</text>
+<text class="encoder-action" x="77" y="98">Wheel ↓ ↻</text>
+<text class="encoder-press" x="77" y="111">Press: Mouse 3</text>
+</g>
+</g>
+</svg>
