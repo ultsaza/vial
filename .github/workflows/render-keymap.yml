@@ -5,21 +5,27 @@ on:
   pull_request:
     paths:
       - "cornix/main.vil"
-      - "scripts/render_keymap.py"
-      - "tests/test_render_keymap.py"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "scripts/**/*.rs"
+      - "tests/**"
+      - "docs/cornix-keymap.svg"
       - ".github/workflows/render-keymap.yml"
   push:
     branches:
       - master
     paths:
       - "cornix/main.vil"
-      - "scripts/render_keymap.py"
-      - "tests/test_render_keymap.py"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "scripts/**/*.rs"
+      - "tests/**"
+      - "docs/cornix-keymap.svg"
       - ".github/workflows/render-keymap.yml"
 
 concurrency:
   group: render-keymap-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: read
@@ -32,19 +38,28 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7
 
-      - name: Set up Python
-        uses: actions/setup-python@v7
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@89b12181fb390509a0842a86cc55eeb8eb928c1d # stable
         with:
-          python-version: "3.12"
+          components: rustfmt, clippy
+
+      - name: Check formatting and lint
+        run: |
+          cargo fmt --all -- --check
+          cargo clippy --locked --all-targets -- -D warnings
 
       - name: Test renderer
-        run: python3 -m unittest discover -s tests -v
+        run: cargo test --locked
 
       - name: Render keymap
-        run: python3 scripts/render_keymap.py cornix/main.vil docs/cornix-keymap.svg
+        run: cargo run --locked -- cornix/main.vil docs/cornix-keymap.svg
 
-      - name: Verify generated diagram is current
-        run: git diff --exit-code -- docs/cornix-keymap.svg
+      - name: Upload generated diagram for review
+        uses: actions/upload-artifact@v7
+        with:
+          name: cornix-keymap
+          path: docs/cornix-keymap.svg
+          if-no-files-found: error
 
   update:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
@@ -54,17 +69,24 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
-
-      - name: Set up Python
-        uses: actions/setup-python@v7
         with:
-          python-version: "3.12"
+          ref: master
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@89b12181fb390509a0842a86cc55eeb8eb928c1d # stable
+        with:
+          components: rustfmt, clippy
+
+      - name: Check formatting and lint
+        run: |
+          cargo fmt --all -- --check
+          cargo clippy --locked --all-targets -- -D warnings
 
       - name: Test renderer
-        run: python3 -m unittest discover -s tests -v
+        run: cargo test --locked
 
       - name: Render keymap
-        run: python3 scripts/render_keymap.py cornix/main.vil docs/cornix-keymap.svg
+        run: cargo run --locked -- cornix/main.vil docs/cornix-keymap.svg
 
       - name: Commit updated diagram
         run: |

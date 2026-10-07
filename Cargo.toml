@@ -1,0 +1,13 @@
+[package]
+name = "render-keymap"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[[bin]]
+name = "render-keymap"
+path = "scripts/render_keymap.rs"
+
+[dependencies]
+serde_json = "1"
+tempfile = "3"
