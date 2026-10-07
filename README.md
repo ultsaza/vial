@@ -7,7 +7,7 @@ source: https://github.com/ultsaza/vial/blob/master/cornix/main.vil
 ## for update
 
 ```bash
-# thise will be executed by gh actions
+# these will be executed by gh actions
 cargo test --locked
 cargo run --locked -- cornix/main.vil docs/cornix-keymap.svg
 ```
