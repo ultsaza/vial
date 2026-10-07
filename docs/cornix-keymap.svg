@@ -408,10 +408,10 @@ text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; 
 <rect x="254" y="627" width="52" height="40" rx="8"/>
 <text class="key-label" x="280" y="648">—</text>
 </g>
-<g class="key empty" data-slot="left-thumb-2" transform="rotate(12 338 652)">
-<title>KC_NO</title>
+<g class="key normal" data-slot="left-thumb-2" transform="rotate(12 338 652)">
+<title>KC_SPACE</title>
 <rect x="312" y="632" width="52" height="40" rx="8"/>
-<text class="key-label" x="338" y="653">—</text>
+<text class="key-label" x="338" y="653">Space</text>
 </g>
 <g class="key normal" data-slot="right-r0-c0">
 <title>KC_6</title>
@@ -493,10 +493,10 @@ text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; 
 <rect x="1028" y="522" width="52" height="40" rx="8"/>
 <text class="key-label" x="1054" y="543">.</text>
 </g>
-<g class="key empty" data-slot="right-r2-c4">
-<title>KC_NO</title>
+<g class="key normal" data-slot="right-r2-c4">
+<title>KC_UP</title>
 <rect x="1086" y="528" width="52" height="40" rx="8"/>
-<text class="key-label" x="1112" y="549">—</text>
+<text class="key-label" x="1112" y="549">↑</text>
 </g>
 <g class="key normal" data-slot="right-r2-c5">
 <title>KC_SLASH</title>
@@ -518,20 +518,20 @@ text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; 
 <rect x="982" y="622" width="52" height="40" rx="8"/>
 <text class="key-label" x="1008" y="643">—</text>
 </g>
-<g class="key empty" data-slot="right-r3-c3">
-<title>KC_NO</title>
+<g class="key normal" data-slot="right-r3-c3">
+<title>KC_LEFT</title>
 <rect x="1028" y="566" width="52" height="40" rx="8"/>
-<text class="key-label" x="1054" y="587">—</text>
+<text class="key-label" x="1054" y="587">←</text>
 </g>
-<g class="key empty" data-slot="right-r3-c4">
-<title>KC_NO</title>
+<g class="key normal" data-slot="right-r3-c4">
+<title>KC_DOWN</title>
 <rect x="1086" y="572" width="52" height="40" rx="8"/>
-<text class="key-label" x="1112" y="593">—</text>
+<text class="key-label" x="1112" y="593">↓</text>
 </g>
-<g class="key empty" data-slot="right-r3-c5">
-<title>KC_NO</title>
+<g class="key normal" data-slot="right-r3-c5">
+<title>KC_RIGHT</title>
 <rect x="1144" y="578" width="52" height="40" rx="8"/>
-<text class="key-label" x="1170" y="599">—</text>
+<text class="key-label" x="1170" y="599">→</text>
 </g>
 <g class="encoder" transform="translate(448 478)">
 <title>Left encoder: KC_VOLD, KC_VOLU, KC_MUTE</title>
@@ -671,10 +671,10 @@ text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; 
 <rect x="254" y="941" width="52" height="40" rx="8"/>
 <text class="key-label" x="280" y="962">—</text>
 </g>
-<g class="key empty" data-slot="left-thumb-2" transform="rotate(12 338 966)">
-<title>KC_NO</title>
+<g class="key normal" data-slot="left-thumb-2" transform="rotate(12 338 966)">
+<title>KC_SPACE</title>
 <rect x="312" y="946" width="52" height="40" rx="8"/>
-<text class="key-label" x="338" y="967">—</text>
+<text class="key-label" x="338" y="967">Space</text>
 </g>
 <g class="key modifier" data-slot="right-r0-c0">
 <title>LSFT(KC_6)</title>
@@ -756,20 +756,20 @@ text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; 
 <rect x="1028" y="836" width="52" height="40" rx="8"/>
 <text class="key-label" x="1054" y="857">⇧ .</text>
 </g>
-<g class="key empty" data-slot="right-r2-c4">
-<title>KC_NO</title>
+<g class="key normal" data-slot="right-r2-c4">
+<title>KC_UP</title>
 <rect x="1086" y="842" width="52" height="40" rx="8"/>
-<text class="key-label" x="1112" y="863">—</text>
+<text class="key-label" x="1112" y="863">↑</text>
 </g>
 <g class="key modifier" data-slot="right-r2-c5">
 <title>LSFT(KC_SLASH)</title>
 <rect x="1144" y="848" width="52" height="40" rx="8"/>
 <text class="key-label" x="1170" y="869">⇧ /</text>
 </g>
-<g class="key empty" data-slot="right-thumb-0" transform="rotate(-12 892 966)">
-<title>KC_NO</title>
+<g class="key modifier" data-slot="right-thumb-0" transform="rotate(-12 892 966)">
+<title>KC_RSHIFT</title>
 <rect x="866" y="946" width="52" height="40" rx="8"/>
-<text class="key-label" x="892" y="967">—</text>
+<text class="key-label" x="892" y="967">R Shift</text>
 </g>
 <g class="key empty" data-slot="right-thumb-1" transform="rotate(-10 950 961)">
 <title>KC_NO</title>
@@ -781,20 +781,20 @@ text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; 
 <rect x="982" y="936" width="52" height="40" rx="8"/>
 <text class="key-label" x="1008" y="957">—</text>
 </g>
-<g class="key empty" data-slot="right-r3-c3">
-<title>KC_NO</title>
+<g class="key normal" data-slot="right-r3-c3">
+<title>KC_LEFT</title>
 <rect x="1028" y="880" width="52" height="40" rx="8"/>
-<text class="key-label" x="1054" y="901">—</text>
+<text class="key-label" x="1054" y="901">←</text>
 </g>
-<g class="key empty" data-slot="right-r3-c4">
-<title>KC_NO</title>
+<g class="key normal" data-slot="right-r3-c4">
+<title>KC_DOWN</title>
 <rect x="1086" y="886" width="52" height="40" rx="8"/>
-<text class="key-label" x="1112" y="907">—</text>
+<text class="key-label" x="1112" y="907">↓</text>
 </g>
-<g class="key empty" data-slot="right-r3-c5">
-<title>KC_NO</title>
+<g class="key normal" data-slot="right-r3-c5">
+<title>KC_RIGHT</title>
 <rect x="1144" y="892" width="52" height="40" rx="8"/>
-<text class="key-label" x="1170" y="913">—</text>
+<text class="key-label" x="1170" y="913">→</text>
 </g>
 <g class="encoder" transform="translate(448 792)">
 <title>Left encoder: KC_VOLD, KC_VOLU, KC_MUTE</title>
@@ -1060,13 +1060,13 @@ text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; 
 <text class="key-label" x="1170" y="1227">—</text>
 </g>
 <g class="encoder" transform="translate(448 1106)">
-<title>Left encoder: KC_VOLD, KC_VOLU, KC_MUTE</title>
+<title>Left encoder: KC_VOLD, KC_VOLU, KC_ENTER</title>
 <rect width="154" height="116" rx="12"/>
 <circle cx="77" cy="31" r="15"/>
 <text class="encoder-name" x="77" y="62">Left encoder</text>
 <text class="encoder-action" x="77" y="82">↺ Vol −</text>
 <text class="encoder-action" x="77" y="98">Vol + ↻</text>
-<text class="encoder-press" x="77" y="111">Press: Mute</text>
+<text class="encoder-press" x="77" y="111">Press: Enter</text>
 </g>
 <g class="encoder" transform="translate(638 1106)">
 <title>Right encoder: KC_WH_U, KC_WH_D, KC_BTN3</title>
@@ -1282,10 +1282,10 @@ text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; 
 <rect x="1028" y="1464" width="52" height="40" rx="8"/>
 <text class="key-label" x="1054" y="1485">—</text>
 </g>
-<g class="key empty" data-slot="right-r2-c4">
-<title>KC_NO</title>
+<g class="key pointer" data-slot="right-r2-c4">
+<title>KC_WH_U</title>
 <rect x="1086" y="1470" width="52" height="40" rx="8"/>
-<text class="key-label" x="1112" y="1491">—</text>
+<text class="key-label" x="1112" y="1491">Wheel ↑</text>
 </g>
 <g class="key empty" data-slot="right-r2-c5">
 <title>KC_NO</title>
@@ -1307,20 +1307,20 @@ text { font-family: Inter, ui-sans-serif, system-ui, sans-serif; fill: #172033; 
 <rect x="982" y="1564" width="52" height="40" rx="8"/>
 <text class="key-label" x="1008" y="1585">—</text>
 </g>
-<g class="key empty" data-slot="right-r3-c3">
-<title>KC_NO</title>
+<g class="key pointer" data-slot="right-r3-c3">
+<title>KC_WH_L</title>
 <rect x="1028" y="1508" width="52" height="40" rx="8"/>
-<text class="key-label" x="1054" y="1529">—</text>
+<text class="key-label" x="1054" y="1529">Wheel ←</text>
 </g>
-<g class="key empty" data-slot="right-r3-c4">
-<title>KC_NO</title>
+<g class="key pointer" data-slot="right-r3-c4">
+<title>KC_WH_D</title>
 <rect x="1086" y="1514" width="52" height="40" rx="8"/>
-<text class="key-label" x="1112" y="1535">—</text>
+<text class="key-label" x="1112" y="1535">Wheel ↓</text>
 </g>
-<g class="key empty" data-slot="right-r3-c5">
-<title>KC_NO</title>
+<g class="key pointer" data-slot="right-r3-c5">
+<title>KC_WH_R</title>
 <rect x="1144" y="1520" width="52" height="40" rx="8"/>
-<text class="key-label" x="1170" y="1541">—</text>
+<text class="key-label" x="1170" y="1541">Wheel →</text>
 </g>
 <g class="encoder" transform="translate(448 1420)">
 <title>Left encoder: KC_WH_L, KC_WH_R, KC_MUTE</title>
