@@ -1,5 +1,7 @@
 # My Cornix key mapping
 
+source: https://github.com/ultsaza/vial/blob/master/cornix/main.vil
+
 ![cornix/main.vil のキーマッピング](docs/cornix-keymap.svg)
 
 ## for update
